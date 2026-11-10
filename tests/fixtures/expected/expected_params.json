@@ -1,0 +1,39 @@
+{
+  "mock_moving": {
+    "min_keyframes": 2,
+    "duration_range": [
+      5.5,
+      6.5
+    ]
+  },
+  "mock_static": {
+    "max_smart_keyframes": 2,
+    "duration_range": [
+      4.5,
+      5.5
+    ]
+  },
+  "mock_night": {
+    "duration_range": [
+      3.5,
+      4.5
+    ]
+  },
+  "thumb_default_size": [
+    320,
+    240
+  ],
+  "fixtures": [
+    "mock_static.mp4",
+    "mock_moving.mp4",
+    "mock_night.mp4",
+    "mock_corrupt.mp4",
+    "edge_tiny.mp4",
+    "edge_144p.mp4",
+    "edge_4k.mp4",
+    "edge_中文 监控(01).mp4",
+    "edge_metadata_blank.mov",
+    "edge_black.mp4",
+    "edge_white.mp4"
+  ]
+}

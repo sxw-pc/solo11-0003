@@ -1,0 +1,19 @@
+# 监帧工坊 - 依赖精确版本锁定清单
+#
+# 离线 wheel 包下载指引（在有网机器执行，全部为纯本地依赖，无云 SDK）：
+#   1. mkdir wheels
+#   2. pip download -r requirements.txt -d wheels
+#   3. 将 wheels/ 目录随项目拷贝到断网目标机器
+#   4. pip install --no-index --find-links=wheels -r requirements.txt
+#
+# 运行环境另需本机 FFmpeg 6.0+ 可执行文件，详见 docs/offline_deploy.md
+fastapi==0.104.1
+uvicorn[standard]==0.24.0.post1
+Pillow==10.1.0
+numpy==1.26.2
+pydantic==2.5.2
+starlette==0.27.0
+httpx==0.25.2
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0

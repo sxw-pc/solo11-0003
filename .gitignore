@@ -1,0 +1,25 @@
+# 本地运行数据目录（数据库、临时文件、输出文件）
+/data/
+# Python 缓存与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+coverage.xml
+# 编辑器与系统文件
+.idea/
+.vscode/
+.DS_Store
+*.swp
+# 自检产生的临时报告
+.selfcheck/
+node_modules/
+*.pyc
+.benchmarks/
+.env
+dist/
